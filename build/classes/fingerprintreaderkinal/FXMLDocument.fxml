@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="729.0" prefWidth="909.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fingerprintreaderkinal.FXMLDocumentController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#06192c" height="736.0" stroke="BLACK" strokeType="INSIDE" width="909.0" />
+      <Pane layoutY="1.0" prefHeight="729.0" prefWidth="909.0">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="336.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/imgKinal.png" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="290.0" layoutY="621.0" prefHeight="32.0" prefWidth="300.0" text="2014055" textFill="#f2eded">
+               <font>
+                  <Font size="36.0" />
+               </font>
+               <effect>
+                  <InnerShadow color="WHITE">
+                     <input>
+                        <Glow level="1.0" />
+                     </input>
+                  </InnerShadow>
+               </effect>
+            </Label>
+            <Label fx:id="labelNombre" alignment="CENTER" layoutX="160.0" layoutY="423.0" prefHeight="70.0" prefWidth="574.0">
+               <font>
+                  <Font size="48.0" />
+               </font>
+            </Label>
+            <Label id="labelHora" fx:id="labelHora" alignment="CENTER" contentDisplay="CENTER" layoutX="183.0" layoutY="250.0" prefHeight="76.0" prefWidth="489.0" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI" size="72.0" />
+               </font>
+            </Label>
+            <Label fx:id="labelAcceso" layoutX="290.0" layoutY="547.0" prefHeight="51.0" prefWidth="300.0" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI" size="36.0" />
+               </font>
+               <effect>
+                  <Glow level="1.0">
+                     <input>
+                        <InnerShadow color="#f2f2f2" />
+                     </input>
+                  </Glow>
+               </effect>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
